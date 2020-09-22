@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenpeace Fundraiser App</title>
+</head>
+<body>
+    <article>
+        <p>czas pracy na ulicy: </p>
+        <div id="timer">
+            <h1>0</h1><h1 id="hrs">0</h1><h1 class="dotHeader">:</h1>
+            <h1 id="hBeforeMins">0</h1><h1 id="mins">0</h1><h1 class="dotHeader">:</h1>
+            <h1 id="hBeforeSecs">0</h1><h1 id="secs">0</h1>
+        </div>
+        <div id="btnContainer">
+            <button id="btnStart">start</button>
+            <button id="btnStop">stop</button>
+            <button id="btnReset">reset</button>
+        </div>
+        <p>średnia:</p>
+        <div id="avgContainer">
+            <h1 id="avg">0.0000</h1>
+        </div>
+        <div id="darContainer">
+            <div id="darTxtContainer">
+                <p>ilość darczyńców:</p>
+            </div>
+            <div id="darNumContainer">
+                <h1 id="darCount">0</h1>
+            </div>
+        </div>
+        <div id="darBtnsContainer">
+                <button id="darPlus" class="largerFont">Dodaj darczyńcę</button>
+                <button id="darMinus" class="largerFont" disabled>Usuń darczyńcę</button>
+        </div>
+    </article>
+
+<script src="./script.js"></script>    
+</body>
+</html>
